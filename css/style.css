@@ -1,0 +1,359 @@
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Bold.ttf) format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    display: swap;
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/Merriweather-Light.ttf) format('truetype');
+    font-weight: 200;
+    font-style: normal;
+    display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    display: swap;
+}
+@font-face {    
+    font-family: "Gilroy";
+    src: url(../fonts/gilroy-medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    display: swap;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy", "Merriweather";
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    min-height: 1080px;
+    width: 100%;
+    background-color: #1A1411;
+    background-image: url(../img/main.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.wrapper_head{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper_head nav{
+    width: 100%;
+    max-width: 603px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper_head a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+.wrapper_head button{
+    background-color: #191411;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+.wrapper_fisrt{
+    display: flex;
+    margin-top: 102px;
+}
+.wrapper_fisrt .promo .menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    width: 137px;
+    height: 46px;
+    background: #d3320f;
+}
+.wrapper_fisrt .promo .menu .menu_text{
+    font-size: 18px;
+    color: #fff;
+}
+.wrapper_fisrt .promo h1{
+    font-family: "Merriweather";
+    font-weight: 900;
+    font-size: 120px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+}
+.wrapper_fisrt .promo .promo_text{
+    font-size: 24px;
+    color: #fff;
+    margin: 56px 0;
+    width: 100%;
+    max-width: 608px;
+}
+.wrapper_fisrt .promo button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 260px;
+    height: 62px;
+    background: linear-gradient(135deg, #da8023 0%, #e2b438 100%);
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #191411;
+    margin-bottom: 200px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color:#191411;
+}
+.section_second{
+    min-height: 607px;
+    width: 100%;
+    background-image:url(../img/whybg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper_second{
+    min-height: 607px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper_second .content_about{
+    min-height: 527px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper_second .content_about .cell{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 312px;
+}
+.wrapper_second .content_about .cell img{
+    width: 100%;
+    max-width: 100px;
+}
+.wrapper_second .content_about .cell h3{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 24px 0;
+}
+.wrapper_second .content_about .cell p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    color: #fff;
+}
+h2{
+    font-family: "Merriweather";
+    font-weight: 900;
+    font-size: 64px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.section_third{
+    min-height: 1472px;
+    width: 100%;
+    background-image:url(../img/burgers_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper_third{
+    min-height: 1472px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper_third .content_burgers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    margin-top: 60px;
+}
+.wrapper_third .content_burgers .cell{
+    width: 100%;
+    max-width: 384px;
+    border-radius: 16px;
+    padding: 30px;
+    background-color: #211A16;
+    border: solid 1px #353535;
+}
+.wrapper_third .content_burgers .cell img{
+    width: 100%;
+    max-width: 324px;
+}
+.wrapper_third .content_burgers .cell h3{
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    margin: 24px 0;
+}
+.wrapper_third .content_burgers .cell p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #fff;
+    margin-bottom: 24px;
+}
+.wrapper_third .content_burgers .cell .cost_gramm{
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper_third .content_burgers .cell .cost_gramm .cost_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper_third .content_burgers .cell .cost_gramm .cost_text .cost{
+    font-weight: 600;
+    font-size: 32px;
+    color: #fff;
+    margin: 0;
+}
+.wrapper_third .content_burgers .cell .cost_gramm .cost_text .gramm{
+    font-weight: 300;
+    font-size: 16px;
+    color: #757575;
+    margin: 0;
+}
+.wrapper_third .content_burgers .cell .cost_gramm button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 182px;
+    height: 62px;
+    background: linear-gradient(135deg, #da8023 0%, #e2b438 100%);
+    cursor: pointer;
+}
+.wrapper_third .content_burgers .cell .cost_gramm button p{
+    font-weight: 600;
+    font-size: 18px;
+    color: #191411;
+    margin: 0;
+}
+.wrapper_third .content_burgers .cell .cost_gramm button img{
+    width: 24px;
+}
+.section_fourth{
+    min-height: 906px;
+    width: 100%;
+    background-image:url(../img/order_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wrapper_fourth{
+    min-height: 906px;
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+}
+.wrapper_fourth .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 424px;
+    height: 555px;
+    background-color: #211A16;
+    border: solid 1px #353535;
+    border-radius: 16px;
+    padding: 30px;
+    margin-top: 110px;
+    margin-right: 100px;
+}
+.wrapper_fourth .form h3{
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+}
+.wrapper_fourth .form input{
+    border-radius: 8px;
+    padding: 0 10px;
+    width: 100%;
+    max-width: 344px;
+    height: 62px;
+    background-color: #211A16;
+    border: solid 1px #DA8023;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    color: #757575;
+    margin: 10px 0;
+}
+.wrapper_fourth .form button{
+    border-radius: 8px;
+    width: 100%;
+    max-width: 344px;
+    height: 62px;
+    background: linear-gradient(135deg, #da8023 0%, #e2b438 100%);
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: center;
+    color: #191411;
+    margin-top: 10px;
+}
+footer{
+    height: 170px;
+    width: 100%;
+    background-color: #191411;
+}
+.wrapper_footer{
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper_footer p{
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+}
